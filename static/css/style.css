@@ -1,0 +1,48 @@
+@charset "UTF-8"
+html {
+    overflow: scroll;
+}
+
+body {
+background-color: rgb(203, 247, 203);
+text-align: left;
+}
+
+body {
+    font-family: 'Yu Gothic UI','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+}
+
+header {
+    font-size: 40px;
+    color: snow;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(48, 212, 119);
+    text-align: center;
+    padding: 8px;
+    letter-spacing: 0.5em;
+}
+
+ul a{
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+#sec1 h1{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+#sec1 .flex p{
+    font-size: 20px;
+    display: inline-flex;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+#sec1 .dialect_item, p a{
+    font-size: 20px;
+  
+}
+
