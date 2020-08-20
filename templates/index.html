@@ -6,6 +6,8 @@
 
     <link rel="stylesheet" href="../static/css/style_sp.css">
 
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+
     <title>やつしろラーニング</title>
 
 </head>
@@ -36,6 +38,14 @@
                 <div class="dialect_item">
                     <p1>{{kotoba}}</p1>
                     <a>{{imi}}</a>
+                    <button id="js-show-popup">使用例</button>
+                    <div class="popup" id="js-popup">
+                        <div class="popup-inner">
+                          <div class="close-btn" id="js-close-btn"><i class="fas fa-times"></i></div>
+                          <a href="#"><img src="../static/img/bikkuri.jpg" alt="ポップアップ画像"></a>
+                        </div>
+                        <div class="black-background" id="js-black-bg"></div>
+                      </div>
                 </div>
 
                 <div class="dialect_item">
@@ -169,6 +179,7 @@
            </section>
 
     </article>
+    <script src="../static/js/common.js"></script>
 
 
 
