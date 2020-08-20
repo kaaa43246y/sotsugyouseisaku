@@ -13,13 +13,13 @@ def index():
     conn = sqlite3.connect("hougen.db")
     c = conn.cursor()
     #課題１ スタッフの誰か一名 （誰でも可）情報を取得するSQL
-    c.execute('SELECT word,mean from hougen where id=1')
+    c.execute('SELECT word,mean from hougen')
     hougen = c.fetchone()
     c.close()
     print(hougen)
 
     #課題２ スタッフの誰か一名（誰でも可）情報を表示するHTMLを作成し表示
-    return render_template("index.html",hougen = hougen)
+    return render_template("index.html",kotoba=hougen[0],imi=hougen[1])
 
 
 
