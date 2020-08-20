@@ -1,0 +1,103 @@
+@charset "UTF-8"
+html {
+    overflow: scroll;
+}
+
+body {
+background-color: rgb(203, 247, 203);
+text-align: left;
+}
+
+body {
+    font-family: 'Yu Gothic UI','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+}
+
+header {
+    font-size: 40px;
+    color: snow;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(48, 212, 119);
+    text-align: left;
+    padding: 8px;
+    letter-spacing: 0.5em;
+}
+
+ul a{
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+#sec1 h1{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+#sec1 .flex p{
+    font-size: 20px;
+    display: inline-flex;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+#sec1 .dialect_item, p a{
+    font-size: 20px;
+    padding: 5px;
+}
+
+#sec2 h1{
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+#sec2 .flex p{
+    font-size: 20px;
+    display: inline-flex;
+    padding-left: 20px;
+    padding-right: 40px; 
+}
+
+#sec2 .dialect_item, p a{
+    font-size: 20px;
+    padding: 5px;
+}
+
+#sec3 .flex h1{
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+#sec3 .flex p{
+    font-size: 20px;
+    display: inline-flex;
+    padding-left: 20px;
+    padding-right: 40px; 
+}
+
+#sec3 .dialect_item, p a{
+    font-size: 20px;
+    padding: 5px;
+}
+
+#sec4 .flex h1{
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+#sec4 .flex p{
+    font-size: 20px;
+    display: inline-flex;
+    padding-left: 20px;
+    padding-right: 40px; 
+}
+
+#sec4 .dialect_item, p a{
+    font-size: 20px;
+    padding: 5px;
+}
+
+/* ここまでできた！ */
