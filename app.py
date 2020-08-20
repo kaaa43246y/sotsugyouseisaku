@@ -31,6 +31,6 @@ def dbtest():
 
 
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
     #flaskが持っている開発者用サーバを実行します
     app.run(debug=True)
