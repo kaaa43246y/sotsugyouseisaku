@@ -9,18 +9,16 @@ text-align: left;
 }
 
 body {
-    font-family: 'Yu Gothic UI','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+    font-family: 'Yu Gothic UI',YuGothic,'Yu Gothic','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
 }
 
 header {
-    font-size: 40px;
-    color: snow;
-    height: 50px;
-    width: 100%;
-    background-color: rgb(48, 212, 119);
-    text-align: left;
-    padding: 8px;
-    letter-spacing: 0.5em;
+ display: table;
+ background-color: rgb(129, 252, 146);
+}
+
+#logo {
+    padding-left: 5px;
 }
 
 ul a{
