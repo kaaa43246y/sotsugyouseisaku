@@ -4,8 +4,8 @@ html {
 }
 
 body {
-background-color: rgb(203, 247, 203);
-text-align: left;
+background-color: white;
+text-align: center;
 }
 
 body {
@@ -13,17 +13,17 @@ body {
 }
 
 header {
- display: table;
- background-color: rgb(129, 252, 146);
+ display: center;
+ background-color: rgb(241, 156, 156);
 }
 
 #logo {
-    padding-left: 5px;
+    text-align: center;
 }
 
 ul a{
     font-size: 30px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 #sec1 h1{
