@@ -13,17 +13,25 @@ def index():
     conn = sqlite3.connect("hougen.db")
     c = conn.cursor()
     #課題１ スタッフの誰か一名 （誰でも可）情報を取得するSQL
-    c.execute('SELECT word,mean from hougen join category on hougen.category_id=category.id where hougen.category_id=4')
-    hougen = c.fetchall()
+    c.execute('SELECT word,mean from hougen join category on hougen.category_id=category.id where hougen.category_id=1')
+    hougen_1 = c.fetchone()
 
     c.execute('SELECT word,mean from hougen join category on hougen.category_id=category.id where hougen.category_id=2')
-    hougen_1 = c.fetchall()
+    hougen_2 = c.fetchone()
+
+    c.execute('SELECT word,mean from hougen join category on hougen.category_id=category.id where hougen.category_id=3')
+    hougen_3 = c.fetchone()
+
+    c.execute('SELECT word,mean from hougen join category on hougen.category_id=category.id where hougen.category_id=4')
+    hougen_4 = c.fetchone()
     c.close()
-    print(hougen)
     print(hougen_1)
+    print(hougen_2)
+    print(hougen_3)
+    print(hougen_4)
 
     #課題２ スタッフの誰か一名（誰でも可）情報を表示するHTMLを作成し表示
-    return render_template("index.html",kotoba=hougen[0],imi=hougen[1])
+    return render_template("index.html",kotoba=hougen_2[0],imi=hougen_2[1])
 
 
 
