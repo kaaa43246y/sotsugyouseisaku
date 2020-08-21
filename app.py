@@ -13,8 +13,8 @@ def index():
     conn = sqlite3.connect("hougen.db")
     c = conn.cursor()
     #課題１ スタッフの誰か一名 （誰でも可）情報を取得するSQL
-    c.execute('SELECT word,mean from hougen')
-    hougen = c.fetchone()
+    c.execute('SELECT word,mean from hougen join category on hougen.category_id=category.id where hougen.category_id=2')
+    hougen = c.fetchall()
     c.close()
     print(hougen)
 
