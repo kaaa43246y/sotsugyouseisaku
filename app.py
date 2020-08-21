@@ -22,6 +22,7 @@ def index():
     print(hougen)
     print(hougen_1)
 
+
     #課題２ スタッフの誰か一名（誰でも可）情報を表示するHTMLを作成し表示
     return render_template("index.html",kotoba=hougen[0],imi=hougen[1])
 
