@@ -31,7 +31,7 @@ def index():
     print(hougen_4)
 
     #課題２ スタッフの誰か一名（誰でも可）情報を表示するHTMLを作成し表示
-    return render_template("index.html",kotoba=hougen_2[0],imi=hougen_2[1])
+    return render_template("index.html",word_1=hougen_1[0],mean_1=hougen_1[1],word_2=hougen_2[0],mean_2=hougen_2[1],word_3=hougen_3[0],mean_3=hougen_3[1],word_4=hougen_4[0],mean_4=hougen_4[1])
 
 
 
