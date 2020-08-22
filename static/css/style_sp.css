@@ -22,14 +22,17 @@ header {
     text-align: center;
 }
 
+.under {
+    text-decoration: underline;
+    font-size: 40px;
+}
+
 ul a{
     text-align: center;
-    padding-right: 20px;
 } 
 
 #sec1 h1{
     font-size: 30px;
-    padding-bottom: 5px;
 }
 
 #sec1 .flex p{
@@ -51,8 +54,9 @@ ul a{
 }
 
 #sec2 h1{
-    padding-left: 20px;
-    font-size: 30px;
+    text-align: center;
+    font-size: 70px;
+    color: yellow;
 }
 
 #sec2 .flex p{
@@ -68,8 +72,9 @@ ul a{
 }
 
 #sec3 .flex h1{
-    padding-left: 20px;
-    font-size: 30px;
+    text-align: center;
+    font-size: 70px;
+    color: yellow;
 }
 
 #sec3 .flex p{
@@ -85,8 +90,9 @@ ul a{
 }
 
 #sec4 .flex h1{
-    padding-left: 20px;
-    font-size: 30px;
+    text-align: center;
+    font-size: 70px;
+    color: yellow;
 }
 
 #sec4 .flex p{
