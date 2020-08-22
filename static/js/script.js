@@ -81,4 +81,54 @@ $(function(){
     $("popup305_modal").fadeIn();
   });
 
+
+
+  // 画像を閉じる
+  $(".close-btn").click(function(){
+    $("#popup1_modal").fadeOut();
+    $("#popup2_modal").fadeOut();
+    $("#popup3_modal").fadeOut();
+    $("#popup4_modal").fadeOut();
+    $("#popup5_modal").fadeOut();
+    $("#popup101_modal").fadeOut();
+    $("#popup102_modal").fadeOut();
+    $("#popup103_modal").fadeOut();
+    $("#popup104_modal").fadeOut();
+    $("#popup105_modal").fadeOut();
+    $("#popup201_modal").fadeOut();
+    $("#popup202_modal").fadeOut();
+    $("#popup203_modal").fadeOut();
+    $("#popup204_modal").fadeOut();
+    $("#popup205_modal").fadeOut();
+    $("#popup301_modal").fadeOut();
+    $("#popup302_modal").fadeOut();
+    $("#popup303_modal").fadeOut();
+    $("#popup304_modal").fadeOut();
+    $("#popup305_modal").fadeOut();
+
+    $("").click(function(){
+      $("#popup1_modal").fadeOut();
+      $("#popup2_modal").fadeOut();
+      $("#popup3_modal").fadeOut();
+      $("#popup4_modal").fadeOut();
+      $("#popup5_modal").fadeOut();
+      $("#popup101_modal").fadeOut();
+      $("#popup102_modal").fadeOut();
+      $("#popup103_modal").fadeOut();
+      $("#popup104_modal").fadeOut();
+      $("#popup105_modal").fadeOut();
+      $("#popup201_modal").fadeOut();
+      $("#popup202_modal").fadeOut();
+      $("#popup203_modal").fadeOut();
+      $("#popup204_modal").fadeOut();
+      $("#popup205_modal").fadeOut();
+      $("#popup301_modal").fadeOut();
+      $("#popup302_modal").fadeOut();
+      $("#popup303_modal").fadeOut();
+      $("#popup304_modal").fadeOut();
+      $("#popup305_modal").fadeOut();
+  })
+
+
+
 });
