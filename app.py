@@ -16,6 +16,7 @@ def index():
     # hougen_1 = c.fetchone()
 
     hougen_list_1 = c.fetchone()
+    print(hougen_list_1)
     # for row in c.fetchone():
     #     hougen_list_1.append({row[0],row[1]})
 
