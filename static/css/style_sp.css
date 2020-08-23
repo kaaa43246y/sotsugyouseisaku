@@ -34,7 +34,9 @@ ul a{
 } 
 
 #sec1 h1{
-    font-size: 30px;
+    text-align: center;
+    font-size: 70px;
+    color: yellow;
 }
 
 #sec1 .flex p{
