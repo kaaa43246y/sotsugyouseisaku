@@ -37,7 +37,7 @@ ul a{
 }
 
 #sec1 .flex p{
-    font-size: 20px;
+    font-size: 25px;
     display: inline-flex;
     padding-left: 70px;
     padding-right: 70px;
@@ -61,7 +61,7 @@ ul a{
 }
 
 #sec2 .flex p{
-    font-size: 20px;
+    font-size: 25px;
     display: inline-flex;
     padding-left: 20px;
     padding-right: 40px; 
@@ -79,7 +79,7 @@ ul a{
 }
 
 #sec3 .flex p{
-    font-size: 20px;
+    font-size: 25px;
     display: inline-flex;
     padding-left: 20px;
     padding-right: 40px; 
@@ -97,7 +97,7 @@ ul a{
 }
 
 #sec4 .flex p{
-    font-size: 20px;
+    font-size: 25px;
     display: inline-flex;
     padding-left: 20px;
     padding-right: 40px; 
