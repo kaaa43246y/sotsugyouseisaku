@@ -173,9 +173,6 @@ ul a{
     z-index: 1;
     cursor: pointer;
   } */
-<<<<<<< HEAD
-  /* //////////////////// */
-=======
   /* //////////////////// */
 
   table{
@@ -211,4 +208,3 @@ ul a{
     transform: translateY(4px);/*下に動く*/
     border-bottom: none;/*線を消す*/
   }
->>>>>>> 5960d7b7a76ed6130f09c69e1ed50eecfba5a336
