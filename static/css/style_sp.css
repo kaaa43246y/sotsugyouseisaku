@@ -225,4 +225,8 @@ ul a{
   letter-spacing: 1px;
   padding-top: 30px;
 }
-    
+
+/* footer上空白 */
+.space {
+  padding-top: 50px;
+}
