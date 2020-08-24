@@ -189,7 +189,8 @@ ul a{
   }
 
 /* ボタン */
-  .btn-square {
+
+  button {
     display: inline-block;
     padding: 0.5em 1em;
     text-decoration: none;
@@ -198,7 +199,7 @@ ul a{
     border-bottom: solid 4px #627295;
     border-radius: 3px;
   }
-  .btn-square:active {
+  button:active {
     /*ボタンを押したとき*/
     -webkit-transform: translateY(4px);
     transform: translateY(4px);/*下に動く*/
