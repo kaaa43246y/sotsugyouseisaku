@@ -222,6 +222,7 @@ ul a{
   footer .copyright {
 	color: black;
 	font-size: 12px;
-	letter-spacing: 1px;
+  letter-spacing: 1px;
+  padding-top: 30px;
 }
     
