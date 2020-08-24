@@ -35,16 +35,15 @@ ul a{
 
 #sec1 h1{
     line-height: 0;
-    font-size: 70px;
-    color: yellow;
-    margin-bottom: 20px;
+    font-size: 20px;
+  padding-top: 3%;
+  padding-bottom: 2%;
 }
 
 #sec1 .flex p{
     font-size: 20px;
     display: inline-flex;
-    padding-left: 20px;
-    padding-right: 90px;
+    margin-right: 20%;
 }
 
 #sec1 .dialect_item, p {
@@ -68,8 +67,7 @@ ul a{
 #sec2 .flex p{
     font-size: 20px;
     display: inline-flex;
-    padding-left: 20px;
-    padding-right: 90px;
+    margin-right: 20%;
 }
 
 #sec2 .dialect_item, p a{
@@ -87,8 +85,7 @@ ul a{
 #sec3 .flex p{
     font-size: 20px;
     display: inline-flex;
-    padding-left: 20px;
-    padding-right: 90px;
+    margin-right: 20%;
 }
 
 #sec3 .dialect_item, p a{
@@ -106,8 +103,7 @@ ul a{
 #sec4 .flex p{
     font-size: 20px;
     display: inline-flex;
-    padding-left: 20px;
-    padding-right: 90px;
+    margin-right: 20%;
 }
 
 #sec4 .dialect_item, p a{
