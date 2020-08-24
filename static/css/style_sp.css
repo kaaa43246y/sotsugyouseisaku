@@ -40,7 +40,7 @@ ul a{
 }
 
 #sec1 .flex p{
-    font-size: 25px;
+    font-size: 20px;
     display: inline-flex;
     padding-left: 70px;
     padding-right: 70px;
@@ -64,7 +64,7 @@ ul a{
 }
 
 #sec2 .flex p{
-    font-size: 25px;
+    font-size: 20px;
     display: inline-flex;
     padding-left: 20px;
     padding-right: 40px; 
@@ -82,7 +82,7 @@ ul a{
 }
 
 #sec3 .flex p{
-    font-size: 25px;
+    font-size: 20px;
     display: inline-flex;
     padding-left: 20px;
     padding-right: 40px; 
@@ -100,7 +100,7 @@ ul a{
 }
 
 #sec4 .flex p{
-    font-size: 25px;
+    font-size: 20px;
     display: inline-flex;
     padding-left: 20px;
     padding-right: 40px; 
@@ -172,7 +172,7 @@ ul a{
   /* //////////////////// */
 
   table{
-    width: 50%;
+    width: 70%;
     border-collapse: collapse;
     border-spacing: 0;
     margin-left: auto;
