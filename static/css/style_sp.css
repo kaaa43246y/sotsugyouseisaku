@@ -227,3 +227,12 @@ ul a{
 .space {
   padding-top: 50px;
 }
+
+
+/* レスポンシブ対応 */
+
+/* @media screen and (max-width:600px){
+  footer {
+    background-color:red;
+  }
+} */
