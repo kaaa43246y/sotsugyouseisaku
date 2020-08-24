@@ -221,7 +221,13 @@ ul a{
 
   footer .copyright {
 	color: black;
+<<<<<<< HEAD
 	font-size: 16px;
 	letter-spacing: 1px;
+=======
+	font-size: 12px;
+  letter-spacing: 1px;
+  padding-top: 30px;
+>>>>>>> f49d514fcb6717cfc3ec7268753b020a33acd4dd
 }
     
