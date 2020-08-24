@@ -192,6 +192,10 @@ ul a{
     background-color: #eee
   }
 
+  table tr:nth-child(even){
+    background-color: white;
+  }
+
 /* ボタン */
 
   button {
