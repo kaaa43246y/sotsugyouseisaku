@@ -215,8 +215,14 @@ ul a{
   }
 
   footer {
-    color: pink;
+	height:80px;
+	background-color: pink;
+}
+
+footer .copyright {
+	color: black;
 	font-size: 12px;
-	padding-top: 30px;
-    letter-spacing: 1px;
-  }
+	letter-spacing: 1px;
+}
+}
+    
