@@ -22,6 +22,7 @@ header {
 
 #logo {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .under {
@@ -183,7 +184,7 @@ ul a{
   }
   
   table th,table td{
-    padding: 10px 0;
+    padding: auto;
     text-align: center;
   }
   
@@ -239,5 +240,9 @@ ul a{
 
 .flex img{
   margin-top: 50px;
+}
+
+.difficulty{
+  margin: 10px 0 30px 0;
 }
   
