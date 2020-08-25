@@ -8,6 +8,7 @@ body {
     background-color : white;
     text-align: center;
     background-image: url(../img/肉球2.jpg);
+    min-width: 100%;
     
 }
 
@@ -17,12 +18,12 @@ body {
 
 header {
     display: center;
-    width: 100%;
+    width: 470px;
     background-color: pink;
 }
 
 #logo {
-    text-align: center;
+  text-align: left;
 }
 
 .under {
