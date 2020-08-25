@@ -39,6 +39,8 @@ ul{
 
 ul a{
     text-align: center;
+    display: block;
+    margin-bottom: 10px;
 } 
 
 /* 変更 */
