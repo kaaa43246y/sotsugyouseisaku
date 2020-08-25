@@ -31,10 +31,6 @@ header {
     font-size: 30px;
 }
 
-ul{
-  padding-left: 0%;
-}
-
 ul a{
     text-align: center;
 } 
@@ -69,6 +65,7 @@ ul a{
     color: yellow;
     margin-bottom: 20px;
 }
+
 
 #sec2 .flex p{
     font-size: 20px;
