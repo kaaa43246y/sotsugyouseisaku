@@ -18,7 +18,8 @@ body {
 
 header {
     display: center;
-    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
     background-color: pink;
 }
 
@@ -34,7 +35,9 @@ header {
 
 ul{
   padding-left: 0%;
-  margin-top: 20px;
+  margin-bottom: 10%;
+  text-align: center;
+  padding: 10%;
 }
 
 ul a{
@@ -44,7 +47,7 @@ ul a{
 /* 変更 */
 #sec1 h1{
     font-size: 20px;
-  padding-top: 10%;
+  padding-top: 20%;
 }
 
 #sec1 .flex p{
