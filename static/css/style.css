@@ -21,14 +21,15 @@ header {
 }
 
 #logo {
-  padding-top: 5px;
     text-align: center;
 }
 
 .under {
     text-decoration: underline;
     font-size: 30px;
+    
 }
+
 
 ul a{
     text-align: center;
@@ -178,6 +179,7 @@ ul a{
     border-spacing: 0;
     margin-left: auto;
     margin-right: auto;
+    
   }
   
   table th,table td{
@@ -234,4 +236,8 @@ ul a{
     background-color:blue;
   }
 } */
+
+.flex img{
+  margin-top: 50px;
+}
   
