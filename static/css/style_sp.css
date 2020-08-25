@@ -31,6 +31,10 @@ header {
     font-size: 30px;
 }
 
+ul{
+  padding-left: 0%;
+}
+
 ul a{
     text-align: center;
 } 
