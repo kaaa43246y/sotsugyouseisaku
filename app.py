@@ -54,7 +54,9 @@ def index():
     #                                     word_4=hougen_4[0],
     #                                     mean_4=hougen_4[1])
                         
-
+@app.route("/edit")
+def edit():
+    return render_template("edit.html") 
 
 
 
