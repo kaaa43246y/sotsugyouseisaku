@@ -97,43 +97,7 @@ def index():
                         
 @app.route("/edit")
 def edit():
-    conn = sqlite3.connect('hougen.db')
-    c = conn.cursor()
-
-    c.execute('SELECT word,mean from hougen')
-    edit = []
-
-    for row in c.fetchall():
-        edit.append({"word":row[0],"mean":row[1]})
-    c.close()
-    print(edit)
-
-
-    return render_template("edit.html",edit=edit) 
-
-# @app.route("/add",methods=["GET"])
-# def add_get():
-#     return render_template("add.html")
-
-# @app.route("/add",methods=["POST"])
-# def add_post():
-#     word=request.form.get("hougen")
-#     mean=request.form.get("imi")
-#     conn = sqlite3.connect('hougen.db')
-#     c = conn.cursor()
-
-#     c.execute('insert into hougen values(null,?,?,?)',(id,word,mean))
-#     conn.commit()
-#     conn.close()
-#     print(edit)
-
-
-#     return redirect("/edit") 
-
-
-
-    
-
+    return render_template("edit.html") 
 
 
 
