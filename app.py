@@ -15,7 +15,7 @@ def index():
     c.execute('SELECT word from hougen join category on hougen.category_id=category.id where hougen.category_id=1')
     hougen_list_1 =[]
     for row in c.fetchall():
-        hougen_list_1.append({"word":row[0]})
+        hougen_list_1.append(row[0])
     print(hougen_list_1)
     # hougen_1 = c.fetchone()
     # hougen_list_1 = c.fetchall()
@@ -25,20 +25,20 @@ def index():
     c.execute('SELECT mean from hougen join category on hougen.category_id=category.id where hougen.category_id=1')
     mean_1 =[]
     for row in c.fetchall():
-        mean_1.append({"mean":row[0]})
+        mean_1.append(row[0])
     print(mean_1)
     # mean_1 = c.fetchall()
 
     c.execute('SELECT word from hougen join category on hougen.category_id=category.id where hougen.category_id=2')
     hougen_list_2 =[]
     for row in c.fetchall():
-        hougen_list_2.append({"word":row[0]})
+        hougen_list_2.append(row[0])
     print(hougen_list_2)
     # hougen_2 = c.fetchone()
     c.execute('SELECT mean from hougen join category on hougen.category_id=category.id where hougen.category_id=2')
     mean_2 =[]
     for row in c.fetchall():
-        mean_2.append({"mean":row[0]})
+        mean_2.append(row[0])
 
     # hougen_list_2 = c.fetchone()
     # for row in c.fetchall():
@@ -47,13 +47,13 @@ def index():
     c.execute('SELECT word from hougen join category on hougen.category_id=category.id where hougen.category_id=3')
     hougen_list_3 =[]
     for row in c.fetchall():
-        hougen_list_3.append({"word":row[0]})
+        hougen_list_3.append(row[0])
     print(hougen_list_3)
     # hougen_3 = c.fetchone()
     c.execute('SELECT mean from hougen join category on hougen.category_id=category.id where hougen.category_id=3')
     mean_3 =[]
     for row in c.fetchall():
-        mean_3.append({"mean":row[0]})
+        mean_3.append(row[0])
 
 
     # hougen_list_3 = c.fetchone()
@@ -63,13 +63,13 @@ def index():
     c.execute('SELECT word from hougen join category on hougen.category_id=category.id where hougen.category_id=4')
     hougen_list_4 =[]
     for row in c.fetchall():
-        hougen_list_4.append({"word":row[0]})
+        hougen_list_4.append(row[0])
     print(hougen_list_4)
     # hougen_4 = c.fetchone()
     c.execute('SELECT mean from hougen join category on hougen.category_id=category.id where hougen.category_id=4')
     mean_4 =[]
     for row in c.fetchall():
-        mean_4.append({"mean":row[0]})
+        mean_4.append(row[0])
 
     # hougen_list_4 = c.fetchone()
     # for row in c.fetchall():
