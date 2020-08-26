@@ -7,18 +7,19 @@
 </head>
 <body>
 
-    <form>
-        <div class="inputs">
-            <label class="label">やつしろの言葉</label>
-            <input class="input_form" type="text" name="name">
-        </div>
-    　　　　 <div class="inputs">
-            <label class="label">意味</label>
-            <input class="input_form" type="number" name="age">
-        <div class="btn-area">
-            <input type="reset" value="リセット"><input type="submit" value="送信">
-        </div>
-    </form>
+    <table border="1">
+        {% for item in edit %}
+        <tr>
+            <td>{{item["word"]}}</td>
+            <td>{{item["mean"]}}</td>
+            <td><a href="/edit/{{item['word']}}">編集</a></td>
+            <td><a href="/del/{{item['mean']}}">削除</a></td>
+    
+        </tr>
+        {% endfor %}
+    
+    </table>
+    <a href="/add">追加</a>
     
 </body>
 </html>
