@@ -8,6 +8,7 @@ app  = Flask(__name__)
 # session利用時にはシークレットキーが必要
 app.secret_key = 'kamaki0721'
 
+# DB方言呼び出し
 @app.route("/index")
 def index():
     conn = sqlite3.connect("hougen.db")
@@ -70,7 +71,7 @@ def index():
     hougen_list_3=hougen_list_3,mean_3=mean_3,
     hougen_list_4=hougen_list_4,mean_4=mean_4)
                                         
-    
+ # 編集ページリスト
 @app.route("/edit")
 def edit():
     conn = sqlite3.connect('hougen.db')
