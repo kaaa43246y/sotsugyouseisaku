@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../static/css/style_sp.css" media="screen and (max-width:600px)">
+    <link rel="stylesheet" href="../static/css/style.css" media="screen and (min-width:600px)">
     <title>Document</title>
 </head>
 <body>
-    <p>追加項目</p>
+    <h1>追加項目</h1>
     <form action="/add" method="post">
-        <input type="text" size="100" maxlength="100" name="category_id" placeholder="1"><br>
-        <input type="text" size="100" maxlength="100" name="hougen" placeholder="ごろ"><br>
-        <input type="text" size="100" maxlength="100" name="mean" placeholder="すごく">
+        <h2>category_id</h2>
+            <input type="text" size="100" maxlength="100" name="category_id" placeholder="1"><br>
+        <h2>word</h2>
+            <input type="text" size="100" maxlength="100" name="hougen" placeholder="ごろ"><br>
+        <h2>mean</h2>
+            <input type="text" size="100" maxlength="100" name="mean" placeholder="すごく"><br>
         <input type="submit" name="save" value="送信">
     </form>
+
+    <h2>list</h2>
 
     <table border="1">
         {% for item in edit %}
