@@ -152,7 +152,18 @@ def add_post():
     print(edit)
 
 
-    return redirect("/edit") 
+    return redirect("/index") 
+
+    # 削除機能追加
+@app.route("/delete/<int:id>")
+def delete_(id):
+    conn = sqlite3.connect("hougen.db")  #データベースに接続
+    c = conn.cursor()
+    c.execute('delete from task where id = ?',(id,))
+    conn.commit() 
+    conn.close
+    return redirect("/task_list")
+
 
 
 
