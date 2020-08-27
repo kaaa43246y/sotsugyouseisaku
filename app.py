@@ -114,30 +114,10 @@ def edit():
 
 @app.route("/add",methods=["GET"])
 def add_get():
-    return render_template("add.html")
+    return render_template("edit.html")
 
 
 # 追加機能
-# @app.route("/add",methods=["POST"])
-# def add_post():
-#     word=request.form.get("word")
-#     mean=request.form.get("mean")
-#     conn = sqlite3.connect('hougen.db')
-#     c = conn.cursor()
-
-#     c.execute('insert into hougen values(null,?,?)',(category_id,word,mean))
-#     conn.commit()
-#     conn.close()
-#     print(edit)
-
-
-#     return redirect("/edit") 
-
-
-@app.route("/add",methods=["GET"])
-def add_get():
-    return render_template("edit.html")
-
 @app.route("/add",methods=["POST"])
 def add_post():
     category_id=request.form.get("category_id")
