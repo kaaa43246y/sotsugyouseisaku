@@ -111,7 +111,7 @@ def edit():
 
     return render_template("edit.html",edit=edit) 
 
-<<<<<<< HEAD
+
 @app.route("/add",methods=["GET"])
 def add_get():
     return render_template("add.html")
@@ -132,8 +132,7 @@ def add_get():
 
 
 #     return redirect("/edit") 
-=======
->>>>>>> 2bde0fce008cf48271ee4a517befa43a4b843aa6
+
 
 @app.route("/add",methods=["GET"])
 def add_get():
@@ -147,16 +146,10 @@ def add_post():
     conn = sqlite3.connect('hougen.db')
     c = conn.cursor()
 
-<<<<<<< HEAD
-
-
-    
-=======
     c.execute('insert into hougen values(null,?,?,?)',(category_id,word,mean))
     conn.commit()
     conn.close()
     print(edit)
->>>>>>> 2bde0fce008cf48271ee4a517befa43a4b843aa6
 
 
     return redirect("/edit") 
