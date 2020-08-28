@@ -109,7 +109,7 @@ def add_post():
     print(edit)
 
 
-    return redirect("/index") 
+    return redirect("/edit") 
 
     # 削除機能追加
 @app.route("/delete/<int:id>")
