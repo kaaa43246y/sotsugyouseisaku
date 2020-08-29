@@ -9,7 +9,7 @@ app  = Flask(__name__)
 app.secret_key = 'kamaki0721'
 
 # DB方言呼び出し
-@app.route("/index")
+@app.route("/")
 def index():
     conn = sqlite3.connect("hougen.db")
     c = conn.cursor()
